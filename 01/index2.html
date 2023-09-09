@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="App.css"/>
     <title>Learning React - 01</title>
    
   </head>
@@ -13,28 +14,6 @@
     <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
     <!-- react dom 18 -->
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-    <script>
-     
-     const heading  = React.createElement("h1",{
-        id: "title",
-      
-     },"React component!");
-
-     function headingFunction (title) {
-               return React.createElement("h2",{id:title},title);
-     }
-   
-     const container1 = React.createElement("div",{
-        id: "container",
-       
-     },[heading,headingFunction("custom Title :)")]);
-    
-     const root = ReactDOM.createRoot(document.getElementById("root"));
-    // react will over write what already exists in the root div. 
-     root.render(container1);
-
-
-
-    </script>
+    <script src = "App.js"></script>
   </body>
 </html>
