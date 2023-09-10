@@ -1,0 +1,41 @@
+
+Q. Difference between a Library and Framework?
+
+Ans. 
+   a). Library - 
+         1. A library is a collection of pre-written code or functions that you can use in your own code to perform specific tasks or operations.
+         2. When you use a library, you have more control over your application's structure and flow. You call the library functions when needed,
+            and you decide how to integrate them into your code.
+
+   b). Framework - 
+         1. A framework, on the other hand, is a more comprehensive and structured tool that provides a foundation and a set of guidelines for building an entire application.
+         2. Frameworks dictate the overall architecture and flow of your application. They often follow a specific design pattern, such as Model-View-Controller (MVC) in web development.        
+
+ Q. What is CDN? Why do we use it?
+
+ Ans. CDN stands for Content Delivery Network. It is a network of distributed servers or data centers that work together to deliver web content, such as text, images, videos, scripts,
+      and other resources, to users based on their geographic location. CDNs are used to improve the performance, reliability, and scalability of web applications and websites. 
+
+ Q. Why is React known as React?
+
+ Ans. React, the JavaScript library for building user interfaces, is known as "React" because it reflects its core philosophy and approach to handling user interface updates: a reactive and declarative programming model.
+
+      The term "React" refers to how the library reacts to changes in data and state and how it efficiently updates the user interface in response to those changes.
+
+ Q. What is crossorigin in script tag?
+
+ Ans. When you include an external script in your web page using a <script> tag, the browser performs a cross-origin request to fetch that script from another domain. If the server hosting the script does not explicitly 
+      allow cross-origin requests from your domain, the browser may block the script from executing due to security concerns.     
+
+  Q. What is diference between React and ReactDOM
+
+  Ans. React is the core library for building user interfaces using a component-based approach and a virtual DOM, while ReactDOM is responsible for the interaction between React components and the actual DOM.
+       When working with React, you typically use both libraries together, with React for component development and ReactDOM for rendering those components into the web page.
+
+  Q. What is async and defer?
+
+  Ans. Use async when you have scripts that can run independently and don't need to wait for the page to fully load or for other scripts to execute.
+
+Use defer when you want to ensure that scripts are executed in order after the HTML parsing is complete, typically just before the DOMContentLoaded event.  
+
+
