@@ -16,7 +16,6 @@ buttonCreateLength.onclick = () => {
     let i = 0;
     
     while (num > 0) {
-        console.log(num);
         const inputNum = document.createElement('input'); 
         inputNum.type = 'number';
         inputNum.setAttribute('class', 'array-element');
@@ -41,4 +40,5 @@ buttonGo.onclick = () => {
     // Sort the array
     array.sort();
     console.log(array);
+   
 }
